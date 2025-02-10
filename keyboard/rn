@@ -6,21 +6,49 @@ xkb_symbols "forgotten" {
 
     name[Group1]="Forgotten Tongue";
 
-    key <TLDE>	{ [    U+1AA0,     U+1CC1,          bar,          bar ]	};
-    key <AE01>	{ [    U+2E0F,    U+10AF3,  twosuperior,    oneeighth ]	};
-    key <AE02>	{ [    U+2E24,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE03>	{ [    U+2210,   sterling, threesuperior,    sterling ]	};
-    key <AE04>	{ [    U+2E0B,     dollar,     EuroSign,   onequarter ]	};
-    key <AE05>	{ [   U+11A3F,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE06>	{ [   U+1F033,   quotedbl,  twosuperior,    oneeighth ]	};    
-    key <AE07>	{ [   U+1F034,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE08>	{ [   U+1F035,  ampersand,  twosuperior,    oneeighth ]	};
-    key <AE09>	{ [   U+1F036,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE10>	{ [   U+10A54,   quotedbl,  twosuperior,    oneeighth ]	};
-// None of those keycodes are mapped in xkb
-    key <AD01>  { [          ,           ,             ,              ] };
-
-    key <AC11>	{ [apostrophe,         at, dead_circumflex, dead_caron]	};
+    key <TLDE>	{ [     U1AA0,      U1CC1,          bar,          bar ]	};
+    key <AE01>	{ [     U2E0F,     U10AF3,  twosuperior,    oneeighth ]	};
+    key <AE02>	{ [     U2E24,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE03>	{ [     U2210,   sterling, threesuperior,    sterling ]	};
+    key <AE04>	{ [     U2E0B,     dollar,     EuroSign,   onequarter ]	};
+    key <AE05>	{ [    U11A3F,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE06>	{ [    U1F033,      caret,  twosuperior,    oneeighth ]	};    
+    key <AE07>	{ [    U1F034,  ampersand,  twosuperior,    oneeighth ]	};
+    key <AE08>	{ [    U1F035,   asterisk,  twosuperior,    oneeighth ]	};
+    key <AE09>	{ [    U1F036, bracketleft,  twosuperior,   oneeighth ]	};
+    key <AE10>	{ [    U10A54, bracketright,  twosuperior,  oneeighth ]	};
+// Number key row
+    key <AD01>  { [     U3017,           ,             ,              ] };
+    key <AD02>  { [     U2E39,           ,             ,              ] };
+    key <AD03>  { [    U1D4D9,           ,             ,              ] };
+    key <AD04>  { [    U1D74B,           ,             ,              ] };
+    key <AD05>  { [     U00AB,           ,             ,              ] };
+    key <AD06>  { [     U00BF,           ,             ,              ] };
+    key <AD07>  { [     U2CFE,           ,             ,              ] };
+    key <AD08>  { [    U10857,           ,             ,              ] };
+    key <AD09>  { [     U22A0,           ,             ,              ] };
+    key <AD10>  { [     U1C3F,           ,             ,              ] };
+// Top row letters
+    key <AC01>	{ [     U2E05,           ,             ,              ]	};
+    key <AC02>	{ [     U0609,           ,             ,              ]	};
+    key <AC03>	{ [    U16B38,           ,             ,              ]	};
+    key <AC04>	{ [     UA874,           ,             ,              ]	};
+    key <AC05>	{ [     U2993,           ,             ,              ]	};
+    key <AC06>	{ [     U0835,           ,             ,              ]	};
+    key <AC07>	{ [     U1BFE,           ,             ,              ]	};
+    key <AC08>	{ [     U27ED,           ,             ,              ]	};
+    key <AC09>	{ [    U11664,           ,             ,              ]	};
+// Midle row letters
+    key <AC01>	{ [     U2E44,           ,             ,              ]	};
+    key <AC02>	{ [     U2E18,           ,             ,              ]	};
+    key <AC03>	{ [     U1CC2,           ,             ,              ]	};
+    key <AC04>	{ [     U2E13,           ,             ,              ]	};
+    key <AC05>	{ [     U2CFA,           ,             ,              ]	};
+    key <AC06>	{ [     U2995,           ,             ,              ]	};
+    key <AC07>	{ [     U2CFB,           ,             ,              ]	};
+// Bottom row letters
+    key <SPCE>  { [     space,      U2981,        space,         space] };
+// Spacebar
     key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
 
     key <LSGT>	{ [ backslash,        bar,          bar,    brokenbar ]	};
