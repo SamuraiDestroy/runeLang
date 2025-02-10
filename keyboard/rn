@@ -47,11 +47,16 @@ xkb_symbols "forgotten" {
     key <AB06>	{ [     U2995,           ,             ,              ]	};
     key <AB07>	{ [     U2CFB,           ,             ,              ]	};
 // Bottom row letters
+    key <LSGT>  { [     U1C3E,      UA66E,             ,              ] }
+    key <AB08>  { [     U2E4E,           ,             ,              ] }
+    key <AB09>  { [     U2E48,           ,             ,              ] }
+    key <AB10>  { [          ,      U2E35,             ,              ] }
+    key <AD11>  { [          ,      U2991,             ,              ] }
+    key <AD12>  { [          ,      U2992,             ,              ] }
+// Punctuation
     key <SPCE>  { [     space,      U2981,        space,         space] };
 // Spacebar
     key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
-
-    key <LSGT>	{ [ backslash,        bar,          bar,    brokenbar ]	};
 
     include "level3(ralt_switch)"
 };
