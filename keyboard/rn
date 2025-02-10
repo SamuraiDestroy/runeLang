@@ -6,7 +6,6 @@ xkb_symbols "forgotten" {
 
     name[Group1]="Forgotten Tongue";
 
-    key <TLDE>	{ [     U1AA0,      U1CC1,          bar,          bar ]	};
     key <AE01>	{ [     U2E0F,     U10AF3,  twosuperior,    oneeighth ]	};
     key <AE02>	{ [     U2E24,   quotedbl,  twosuperior,    oneeighth ]	};
     key <AE03>	{ [     U2210,   sterling, threesuperior,    sterling ]	};
@@ -15,9 +14,9 @@ xkb_symbols "forgotten" {
     key <AE06>	{ [    U1F033,      caret,  twosuperior,    oneeighth ]	};    
     key <AE07>	{ [    U1F034,  ampersand,  twosuperior,    oneeighth ]	};
     key <AE08>	{ [    U1F035,   asterisk,  twosuperior,    oneeighth ]	};
-    key <AE09>	{ [    U1F036, bracketleft,  twosuperior,   oneeighth ]	};
-    key <AE10>	{ [    U10A54, bracketright,  twosuperior,  oneeighth ]	};
-// Number key row
+    key <AE09>	{ [    U1F036, bracketleft, twosuperior,    oneeighth ]	};
+    key <AE10>	{ [    U10A54, bracketright, twosuperior,   oneeighth ]	};
+// Number keys
     key <AD01>  { [     U3017,      U228E,             ,              ] };
     key <AD02>  { [     U2E39,      U27D1,             ,              ] };
     key <AD03>  { [    U1D4D9,      U229E,             ,              ] };
@@ -53,7 +52,8 @@ xkb_symbols "forgotten" {
     key <AB10>  { [          ,      U2E35,             ,              ] }
     key <AD11>  { [          ,      U2991,             ,              ] }
     key <AD12>  { [          ,      U2992,             ,              ] }
-// Punctuation
+    key <TLDE>	{ [     U1AA0,      U1CC1,          bar,          bar ]	};
+    // Punctuation
     key <SPCE>  { [     space,      U2981,        space,         space] };
 // Spacebar
     key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
