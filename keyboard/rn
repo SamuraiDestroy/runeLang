@@ -18,20 +18,20 @@ xkb_symbols "forgotten" {
     key <AE09>	{ [    U1F036, bracketleft,  twosuperior,   oneeighth ]	};
     key <AE10>	{ [    U10A54, bracketright,  twosuperior,  oneeighth ]	};
 // Number key row
-    key <AD01>  { [     U3017,           ,             ,              ] };
-    key <AD02>  { [     U2E39,           ,             ,              ] };
-    key <AD03>  { [    U1D4D9,           ,             ,              ] };
-    key <AD04>  { [    U1D74B,           ,             ,              ] };
-    key <AD05>  { [     U00AB,           ,             ,              ] };
-    key <AD06>  { [     U00BF,           ,             ,              ] };
-    key <AD07>  { [     U2CFE,           ,             ,              ] };
+    key <AD01>  { [     U3017,      U228E,             ,              ] };
+    key <AD02>  { [     U2E39,      U27D1,             ,              ] };
+    key <AD03>  { [    U1D4D9,      U229E,             ,              ] };
+    key <AD04>  { [    U1D74B,      U236B,             ,              ] };
+    key <AD05>  { [     U00AB,      U27FA,             ,              ] };
+    key <AD06>  { [     U00BF,      U2299,             ,              ] };
+    key <AD07>  { [     U2CFE,      U228C,             ,              ] };
     key <AD08>  { [    U10857,           ,             ,              ] };
     key <AD09>  { [     U22A0,           ,             ,              ] };
     key <AD10>  { [     U1C3F,           ,             ,              ] };
 // Top row letters
-    key <AC01>	{ [     U2E05,           ,             ,              ]	};
-    key <AC02>	{ [     U0609,           ,             ,              ]	};
-    key <AC03>	{ [    U16B38,           ,             ,              ]	};
+    key <AC01>	{ [     U2E05,      U27CF,             ,              ]	};
+    key <AC02>	{ [     U0609,      U27E0,             ,              ]	};
+    key <AC03>	{ [    U16B38,      U27CE,             ,              ]	};
     key <AC04>	{ [     UA874,           ,             ,              ]	};
     key <AC05>	{ [     U2993,           ,             ,              ]	};
     key <AC06>	{ [     U0835,           ,             ,              ]	};
@@ -39,13 +39,13 @@ xkb_symbols "forgotten" {
     key <AC08>	{ [     U27ED,           ,             ,              ]	};
     key <AC09>	{ [    U11664,           ,             ,              ]	};
 // Midle row letters
-    key <AC01>	{ [     U2E44,           ,             ,              ]	};
-    key <AC02>	{ [     U2E18,           ,             ,              ]	};
-    key <AC03>	{ [     U1CC2,           ,             ,              ]	};
-    key <AC04>	{ [     U2E13,           ,             ,              ]	};
-    key <AC05>	{ [     U2CFA,           ,             ,              ]	};
-    key <AC06>	{ [     U2995,           ,             ,              ]	};
-    key <AC07>	{ [     U2CFB,           ,             ,              ]	};
+    key <AB01>	{ [     U2E44,           ,             ,              ]	};
+    key <AB02>	{ [     U2E18,           ,             ,              ]	};
+    key <AB03>	{ [     U1CC2,           ,             ,              ]	};
+    key <AB04>	{ [     U2E13,           ,             ,              ]	};
+    key <AB05>	{ [     U2CFA,           ,             ,              ]	};
+    key <AB06>	{ [     U2995,           ,             ,              ]	};
+    key <AB07>	{ [     U2CFB,           ,             ,              ]	};
 // Bottom row letters
     key <SPCE>  { [     space,      U2981,        space,         space] };
 // Spacebar
