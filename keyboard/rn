@@ -1,0 +1,29 @@
+// Keyboard layouts for Forgotten Tongue.
+
+default partial alphanumeric_keys
+xkb_symbols "forgotten" {
+    include "latin"
+
+    name[Group1]="Forgotten Tongue";
+
+    key <TLDE>	{ [    U+1AA0,     U+1CC1,          bar,          bar ]	};
+    key <AE01>	{ [    U+2E0F,    U+10AF3,  twosuperior,    oneeighth ]	};
+    key <AE02>	{ [    U+2E24,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE03>	{ [    U+2210,   sterling, threesuperior,    sterling ]	};
+    key <AE04>	{ [    U+2E0B,     dollar,     EuroSign,   onequarter ]	};
+    key <AE05>	{ [   U+11A3F,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE06>	{ [   U+1F033,   quotedbl,  twosuperior,    oneeighth ]	};    
+    key <AE07>	{ [   U+1F034,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE08>	{ [   U+1F035,  ampersand,  twosuperior,    oneeighth ]	};
+    key <AE09>	{ [   U+1F036,   quotedbl,  twosuperior,    oneeighth ]	};
+    key <AE10>	{ [   U+10A54,   quotedbl,  twosuperior,    oneeighth ]	};
+// None of those keycodes are mapped in xkb
+    key <AD01>  { [          ,           ,             ,              ] };
+
+    key <AC11>	{ [apostrophe,         at, dead_circumflex, dead_caron]	};
+    key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
+
+    key <LSGT>	{ [ backslash,        bar,          bar,    brokenbar ]	};
+
+    include "level3(ralt_switch)"
+};
