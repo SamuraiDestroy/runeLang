@@ -11,52 +11,50 @@ xkb_symbols "forgotten" {
     key <AE03>	{ [     U2210,   sterling, threesuperior,    sterling ]	};
     key <AE04>	{ [     U2E0B,     dollar,     EuroSign,   onequarter ]	};
     key <AE05>	{ [    U11A3F,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE06>	{ [    U1F033,      caret,  twosuperior,    oneeighth ]	};    
-    key <AE07>	{ [    U1F034,  ampersand,  twosuperior,    oneeighth ]	};
-    key <AE08>	{ [    U1F035,   asterisk,  twosuperior,    oneeighth ]	};
-    key <AE09>	{ [    U1F036, bracketleft, twosuperior,    oneeighth ]	};
-    key <AE10>	{ [    U10A54, bracketright, twosuperior,   oneeighth ]	};
+    key <AE06>	{ [    U1F033,      caret,            e,             e]	};    
+    key <AE07>	{ [    U1F034,  ampersand,            e,             e]	};
+    key <AE08>	{ [    U1F035,   asterisk,            e,             e]	};
+    key <AE09>	{ [    U1F036, bracketleft,           e,             e]	};
+    key <AE10>	{ [    U10A54, bracketright,          e,             e] };
 // Number keys
-    key <AD01>  { [     U3017,      U228E,             ,              ] };
-    key <AD02>  { [     U2E39,      U27D1,             ,              ] };
-    key <AD03>  { [    U1D4D9,      U229E,             ,              ] };
-    key <AD04>  { [    U1D74B,      U236B,             ,              ] };
-    key <AD05>  { [     U00AB,      U27FA,             ,              ] };
-    key <AD06>  { [     U00BF,      U2299,             ,              ] };
-    key <AD07>  { [     U2CFE,      U228C,             ,              ] };
-    key <AD08>  { [    U10857,           ,             ,              ] };
-    key <AD09>  { [     U22A0,           ,             ,              ] };
-    key <AD10>  { [     U1C3F,           ,             ,              ] };
+    key <AD01>  { [     U3017,      U228E,            e,             e] };
+    key <AD02>  { [     U2E39,      U27D1,            e,             e] };
+    key <AD03>  { [    U1D4D9,      U229E,            e,             e] };
+    key <AD04>  { [    U1D74B,      U236B,            e,             e] };
+    key <AD05>  { [     U00AB,      U27FA,            e,             e] };
+    key <AD06>  { [     U00BF,      U2299,            e,             e] };
+    key <AD07>  { [     U2CFE,      U228C,            e,             e] };
+    key <AD08>  { [    U10857,          e,            e,             e] };
+    key <AD09>  { [     U22A0,          e,            e,             e] };
+    key <AD10>  { [     U1C3F,          e,            e,             e] };
 // Top row letters
-    key <AC01>	{ [     U2E05,      U27CF,             ,              ]	};
-    key <AC02>	{ [     U0609,      U27E0,             ,              ]	};
-    key <AC03>	{ [    U16B38,      U27CE,             ,              ]	};
-    key <AC04>	{ [     UA874,           ,             ,              ]	};
-    key <AC05>	{ [     U2993,           ,             ,              ]	};
-    key <AC06>	{ [     U0835,           ,             ,              ]	};
-    key <AC07>	{ [     U1BFE,           ,             ,              ]	};
-    key <AC08>	{ [     U27ED,           ,             ,              ]	};
-    key <AC09>	{ [    U11664,           ,             ,              ]	};
+    key <AC01>	{ [     U2E05,          e,            e,             e]	};
+    key <AC02>	{ [     U0609,          e,            e,             e]	};
+    key <AC03>	{ [    U16B38,          e,            e,             e]	};
+    key <AC04>	{ [     UA874,          e,            e,             e]	};
+    key <AC05>	{ [     U2993,          e,            e,             e]	};
+    key <AC06>	{ [     U0835,          e,            e,             e]	};
+    key <AC07>	{ [     U1BFE,          e,            e,             e]	};
+    key <AC08>	{ [     U27ED,          e,            e,             e]	};
+    key <AC09>	{ [    U11664,          e,            e,             e]	};
 // Midle row letters
-    key <AB01>	{ [     U2E44,           ,             ,              ]	};
-    key <AB02>	{ [     U2E18,           ,             ,              ]	};
-    key <AB03>	{ [     U1CC2,           ,             ,              ]	};
-    key <AB04>	{ [     U2E13,           ,             ,              ]	};
-    key <AB05>	{ [     U2CFA,           ,             ,              ]	};
-    key <AB06>	{ [     U2995,           ,             ,              ]	};
-    key <AB07>	{ [     U2CFB,           ,             ,              ]	};
+    key <AB01>	{ [     U2E44,          e,            e,             e]	};
+    key <AB02>	{ [     U2E18,          e,            e,             e]	};
+    key <AB03>	{ [     U1CC2,          e,            e,             e]	};
+    key <AB04>	{ [     U2E13,          e,            e,             e]	};
+    key <AB05>	{ [     U2CFA,          e,            e,             e]	};
+    key <AB06>	{ [     U2995,          e,            e,             e]	};
+    key <AB07>	{ [     U2CFB,          e,            e,             e]	};
 // Bottom row letters
-    key <LSGT>  { [     U1C3E,      UA66E,             ,              ] }
-    key <AB08>  { [     U2E4E,           ,             ,              ] }
-    key <AB09>  { [     U2E48,           ,             ,              ] }
-    key <AB10>  { [          ,      U2E35,             ,              ] }
-    key <AD11>  { [          ,      U2991,             ,              ] }
-    key <AD12>  { [          ,      U2992,             ,              ] }
-    key <TLDE>	{ [     U1AA0,      U1CC1,          bar,          bar ]	};
+    key <LSGT>  { [     U1C3E,      UA66E,            e,             e] }
+    key <AB08>  { [     U2E4E,          e,            e,             e] }
+    key <AB09>  { [     U2E48,          e,            e,             e] }
+    key <AB10>  { [         e,      U2E35,            e,             e] }
+    key <AD11>  { [         e,      U2991,            e,             e] }
+    key <AD12>  { [         e,      U2992,            e,             e] }
+    key <TLDE>	{ [     U1AA0,      U1CC1,            e,             e] };
     // Punctuation
     key <SPCE>  { [     space,      U2981,        space,         space] };
 // Spacebar
-    key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
-
     include "level3(ralt_switch)"
 };
