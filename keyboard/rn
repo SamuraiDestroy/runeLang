@@ -28,9 +28,9 @@ xkb_symbols "forgotten" {
     key <AD09>  { [     U22A0,          e,            e,             e] };
     key <AD10>  { [     U1C3F,          e,            e,             e] };
 // Top row letters
-    key <AC01>	{ [     U2E05,          e,            e,             e]	};
-    key <AC02>	{ [     U0609,          e,            e,             e]	};
-    key <AC03>	{ [    U16B38,          e,            e,             e]	};
+    key <AC01>	{ [     U2E05,      U27CF,            e,             e]	};
+    key <AC02>	{ [     U0609,      U27E0,            e,             e]	};
+    key <AC03>	{ [    U16B38,      U27CE,            e,             e]	};
     key <AC04>	{ [     UA874,          e,            e,             e]	};
     key <AC05>	{ [     U2993,          e,            e,             e]	};
     key <AC06>	{ [     U0835,          e,            e,             e]	};
