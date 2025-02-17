@@ -55,6 +55,6 @@ xkb_symbols "forgotten" {
     key <TLDE>	{ [     U1AA0,      U1CC1,            e,             e] };
     // Punctuation
     key <SPCE>  { [     space,      U2981,        space,         space] };
-// Spacebar
+    // Spacebar
     include "level3(ralt_switch)"
 };
