@@ -46,12 +46,14 @@ xkb_symbols "forgotten" {
     key <AB06>	{ [     U2995,          e,            e,             e]	};
     key <AB07>	{ [     U2CFB,          e,            e,             e]	};
 // Bottom row letters
-    key <LSGT>  { [     U1C3E,      UA66E,            e,             e] }
-    key <AB08>  { [     U2E4E,          e,            e,             e] }
-    key <AB09>  { [     U2E48,          e,            e,             e] }
-    key <AB10>  { [         e,      U2E35,            e,             e] }
-    key <AD11>  { [         e,      U2991,            e,             e] }
-    key <AD12>  { [         e,      U2992,            e,             e] }
+    key <LSGT>  { [     U1C3E,      UA66E,            e,             e] };
+    key <AB08>  { [     U2E4E,          e,            e,             e] };
+    key <AB09>  { [     U2E48,          e,            e,             e] };
+    key <AB10>  { [         e,      U2E35,            e,             e] };
+    key <AD11>  { [         e,      U2991,            e,             e] };
+    key <AD12>  { [         e,      U2992,            e,             e] };
+    key <AE11>  { [         E,          e,            e,             e] };
+    key <AE12>  { [         E,          E,            e,             e] };
     key <TLDE>	{ [     U1AA0,      U1CC1,            e,             e] };
     // Punctuation
     key <SPCE>  { [     space,      U2981,        space,         space] };
