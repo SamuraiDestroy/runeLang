@@ -9,3 +9,6 @@ It turns the keyboard into the symbols of the conlang.
 
 ## Installation
 Probably meson let me cook first sorry
+
+## Syntax and Grammar
+You get to figure it out yourself :)
